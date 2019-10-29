@@ -9,7 +9,7 @@
     </targets>
     <targetConfigs>
       <targetConfig targets="lightning__FlowScreen">
-          <property name="val" type="Integer" label="Quality Rating" description="Select the Quality Rating Value."/>
+          <property name="val" type="Integer"/>
       </targetConfig>
     </targetConfigs>
 </LightningComponentBundle>
