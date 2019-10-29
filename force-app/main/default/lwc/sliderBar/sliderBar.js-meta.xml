@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata" fqn="SliderBar">
+    <apiVersion>47.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Slider Bar</masterLabel>
+    <description>Add a slider bar to a flow.</description>
+    <targets>
+      <target>lightning__FlowScreen</target> 
+    </targets>
+    <targetConfigs>
+      <targetConfig targets="lightning__FlowScreen">
+          <property name="val" type="Integer" label="Quality Rating" description="Select the Quality Rating Value."/>
+      </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>
